@@ -10,8 +10,8 @@ public class Rectangle extends Shape{
         this.a = a;
         this.b = b;
     }
-@Override
+    @Override
     public double getArea() {
-        return a*b;
+        return a * b;
     }
 }

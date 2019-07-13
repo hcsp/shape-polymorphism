@@ -10,6 +10,6 @@ public class Circle extends Shape{
     }
     @Override
     public double getArea() {
-        return diameter*diameter*Math.PI/4;
+        return diameter * diameter * Math.PI/4;
     }
 }
