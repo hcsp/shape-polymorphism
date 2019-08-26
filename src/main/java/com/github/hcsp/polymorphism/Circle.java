@@ -7,11 +7,13 @@ public class Circle extends Shape{
     // 提示，圆周率可以使用Math.PI
     private double diameter;
 
+
     public Circle(double diameter) {
         this.diameter = diameter;
     }
     @Override
     public double getArea() {
-        return  PI*(diameter*diameter);
+        double radius = diameter/2;
+        return  PI*(radius*radius);
     }
 }
