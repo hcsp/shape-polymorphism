@@ -11,6 +11,6 @@ public class Rectangle extends Shape {
         this.b = b;
     }
     public double getArea(){
-        return a * b;
+        return this.a * this.b;
     }
 }
