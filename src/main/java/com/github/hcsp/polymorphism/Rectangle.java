@@ -13,6 +13,6 @@ public class Rectangle extends Shape {
 
   @Override
   public double getArea() {
-    return this.a * this.b / 2;
+    return this.a * this.b;
   }
 }
