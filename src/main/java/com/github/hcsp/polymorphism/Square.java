@@ -1,7 +1,7 @@
 package com.github.hcsp.polymorphism;
 
 public class Square extends Shape{
-    // 正方形的边长
+    // 正方形边长
     private double sideLength;
 
     public Square(double sideLength) {
