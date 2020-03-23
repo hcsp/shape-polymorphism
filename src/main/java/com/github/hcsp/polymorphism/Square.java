@@ -10,6 +10,6 @@ public class Square extends Shape {
 
     @Override
     public double getArea() {
-        return Math.pow(sideLength,2);
+        return Math.pow(sideLength, 2);
     }
 }
