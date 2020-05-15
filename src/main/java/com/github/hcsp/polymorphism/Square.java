@@ -8,6 +8,6 @@ public class Square extends Shape {
         this.sideLength = sideLength;
     }
     public double getArea() {
-        return Math.pow(sideLength,2);
+        return Math.pow(sideLength, 2);
     }
 }
