@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class Square extends Shape{
+public class Square extends Shape {
     // 正方形的边长
     private double sideLength;
 
@@ -10,6 +10,6 @@ public class Square extends Shape{
 
     @Override
     public double getArea() {
-        return Math.pow(this.sideLength ,2);
+        return Math.pow(this.sideLength, 2);
     }
 }

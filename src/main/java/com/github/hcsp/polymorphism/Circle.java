@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     // 圆的直径
     // 提示，圆周率可以使用Math.PI
     private double diameter;
@@ -11,6 +11,6 @@ public class Circle extends Shape{
 
     @Override
     public double getArea() {
-        return Math.PI * Math.pow(this.diameter/2 ,2);
+        return Math.PI * Math.pow(this.diameter / 2, 2);
     }
 }
