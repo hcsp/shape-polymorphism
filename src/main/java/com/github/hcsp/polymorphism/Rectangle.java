@@ -7,7 +7,7 @@ public class Rectangle extends Shape{
     private double b;
 
     public double getArea() {
-        return Math.PI*a*b;
+        return a*b;
     }
 
     public Rectangle(double a, double b) {

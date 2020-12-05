@@ -5,7 +5,7 @@ public class Square extends Shape{
     private double sideLength;
 
     public double getArea() {
-        return Math.PI*sideLength*sideLength;
+        return sideLength * sideLength;
     }
 
     public Square(double sideLength) {
