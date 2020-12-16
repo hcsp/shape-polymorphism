@@ -1,6 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-public class Rectangle  extends Shape{
+public class Rectangle extends Shape {
     // 长方形的长
     private double a;
     // 长方形的宽
